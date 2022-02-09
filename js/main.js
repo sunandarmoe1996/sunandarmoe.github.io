@@ -7,3 +7,6 @@ let mixerPortfolio = mixitup('.work_container', {
     }
 }); 
 
+
+window.addEventListener('scroll',scrollActive);
+
