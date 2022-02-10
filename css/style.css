@@ -186,6 +186,7 @@
 	.nav_bar{
 		display: none;
 	}
+
 	.experience_list{
 		font-size: var(--normal-font-size);
 	}
@@ -221,6 +222,7 @@
 	.experience_list{
 		font-size: var(--normal-font-size);
 	}
+	
 	.work_container{
 		grid-template-columns: repeat(1, max-content);
 	}
@@ -244,7 +246,7 @@
 	.home_buttons{
 		flex-direction: column;
 	}
-	
+
 	.about_card{
 		font-size: var(--smaller-font-size);
 	}
@@ -253,7 +255,7 @@
 		grid-template-columns: repeat(2, 1fr);
 	}
 	.experience_list{
-		font-size: var(--small-font-size);
+		font-size: var(--smaller-font-size);
 	}
 	.skills_box{
 		column-gap: 1rem;
@@ -554,12 +556,11 @@ img{
 	grid-template-columns: repeat(2, 1fr);
 	padding: 2rem;
 }
-.about_work,.about_education{
-	padding-top: 1rem;
-}
+
 .about_card{
 	cursor: pointer;
 	background-color: var(--first-color);
+	margin-top: .2rem;
 	padding: 3rem 1.5rem 1.5rem;
 	border-radius: 1rem;
 	box-shadow: 0 .1rem .1rem var(--container-color);
